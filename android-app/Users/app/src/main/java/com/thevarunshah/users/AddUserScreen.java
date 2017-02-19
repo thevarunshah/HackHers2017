@@ -23,7 +23,7 @@ public class AddUserScreen extends AppCompatActivity {
         setContentView(R.layout.activity_add_user);
 
         //fetch button from layout
-        Button submit = (Button) findViewById(R.id.submit);
+        Button submit = (Button) findViewById(R.id.submit_button);
         //attach on click listener to the button
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
